@@ -101,7 +101,7 @@ class LLMDefenseEnv:
     def __init__(self):
         self.generator = InputGenerator()
         self.monitor = Monitor()
-        self.protector = LLMProtector()
+        self.protector = PPOProtector()
         self.target_llm = TargetLLM()
         self.evaluator = Evaluator()
 
